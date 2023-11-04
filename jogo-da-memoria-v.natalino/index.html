@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da Memoria</title>
     <link rel="stylesheet" href="./src/styles/main.css">
+
 </head>
 
 <body>
+    <audio id="meuAudio" autoplay>
+        <source src="./src/audios/we-wish.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
     <div class="snow_wrap">
     </div>
     <div class="container">
@@ -16,6 +22,7 @@
         <div class="game"></div>
         <button class="reset" onclick="window.location.reload()">RESET GAME</button>
     </div>
+
 
     <script src="./src/scripts/engine.js" defer></script>
 </body>

@@ -56,10 +56,14 @@ function checkMatch() {
   }
 }
 
-function playSound(audioName) {
-  let audio = new Audio(`../src/audios/${audioName}.mp3`);
-  audio.volume = 0.02;
-  audio.play();
-}
+var meuAudio = document.getElementById("meuAudio");
 
-playSound("we-wish");
+meuAudio.volume = 0.09;
+
+// function playSound(audioName) {
+//   let audio = new Audio(`../src/audios/${audioName}.mp3`);
+//   audio.volume = 0.05;
+//   audio.play();
+// }
+
+// playSound("we-wish");

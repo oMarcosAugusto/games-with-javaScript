@@ -124,3 +124,7 @@ h2 {
 .boxOpenmatch::after {
   transform: rotateY(180deg);
 }
+
+#audioEscondido {
+  display: none;
+}
